@@ -21,3 +21,6 @@ let captainAmerica = Person.create({
 });
 
 captainAmerica.get('description'); // "Steve Rogers; Age: 80; Country: USA"
+
+captainAmerica.set('firstName', 'William'); //set dynamically updates the computed property
+captainAmerica.get('description'); // "William Rogers; Age: 80; Country: USA"
